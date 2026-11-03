@@ -34,23 +34,9 @@ Product ranking using window functions.
 The Supermart Sales Analysis project helped analyze sales data using PostgreSQL and extract meaningful business insights from customer, product, and sales records.
 Through SQL queries, the project explored customer purchasing behavior, product performance, regional sales, and overall profitability. It also used SQL concepts such as joins, aggregate functions, subqueries, CTEs, and window functions to answer business-related questions.
 
- **Database Creation**: The project starts by creating a database named `SQL_Health_care`.
+ **Database Creation**: The project starts by creating a database named `Supermart.sql`.
 
-# Dataset: Health_care Sales Dataset
-```SQL
-Create table Health_care (
-
- Full_Name	Varchar primary key,
-  Age	int,
-   Gender varchar,	
-    BMI	float,
-     Children	int,
-      Smoking_Status	varchar,
-       Location	varchar,
-        Insurance_Price int
-
-);
-```
+# Dataset: Supermart.sql Sales Dataset
 
 
 1. **Retrieve all records from the customer table**
